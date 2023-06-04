@@ -13,6 +13,6 @@
 	},
 	{
 		"ParameterKey": "ImageId",
-		"ParameterValue": "thaidg-ami-ubuntu-22"
+		"ParameterValue": "ami-068663a3c619dd892"
 	}
 ]
