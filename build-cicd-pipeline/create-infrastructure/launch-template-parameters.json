@@ -9,7 +9,7 @@
 	},
 	{
 		"ParameterKey": "KeyPair",
-		"ParameterValue": "thaidg-udacity-key-pair"
+		"ParameterValue": "ec2-deployment"
 	},
 	{
 		"ParameterKey": "ImageId",

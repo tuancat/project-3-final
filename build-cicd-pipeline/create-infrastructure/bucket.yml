@@ -13,6 +13,11 @@ Resources:
         Properties:
             BucketName: !Ref MyBucketName
             AccessControl: "PublicRead"
+            PublicAccessBlockConfiguration:
+                BlockPublicAcls: false
+            OwnershipControls:
+                Rules:
+                    - ObjectOwnership: ObjectWriter
             WebsiteConfiguration:
                 IndexDocument: "index.html"
                 ErrorDocument: "404.html"
