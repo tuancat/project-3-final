@@ -12,12 +12,6 @@ Parameters:
         AllowedValues:
             - t2.micro
             - t3.micro
-    KeyPair:
-        Type: AWS::SSM::Parameter::Value<AWS::EC2::KeyPair::KeyName>
-        Description: "AWS key pair in us-east-1, stored in SSM Parameter Store."
-    ImageId:
-        Type: AWS::SSM::Parameter::Value<AWS::EC2::Image::Id>
-        Description: "AWS AMI in us-east-1, stored in SSM Parameter Store."
 
 Resources:
     EC2InstanceLaunchTemplate:

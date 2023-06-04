@@ -6,13 +6,5 @@
 	{
 		"ParameterKey": "InstanceType",
 		"ParameterValue": "t2.micro"
-	},
-	{
-		"ParameterKey": "KeyPair",
-		"ParameterValue": "ec2-deployment"
-	},
-	{
-		"ParameterKey": "ImageId",
-		"ParameterValue": "ami-068663a3c619dd892"
 	}
 ]
