@@ -1,0 +1,18 @@
+[
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "ThaiDG-Udacity-final-project"
+	},
+	{
+		"ParameterKey": "InstanceType",
+		"ParameterValue": "t2.micro"
+	},
+	{
+		"ParameterKey": "KeyPair",
+		"ParameterValue": "thaidg-udacity-key-pair"
+	},
+	{
+		"ParameterKey": "ImageId",
+		"ParameterValue": "thaidg-ami-ubuntu-22"
+	}
+]
