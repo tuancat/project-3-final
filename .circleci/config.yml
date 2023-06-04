@@ -833,28 +833,28 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
       - create-frontend-infrastructure:
           requires:
             - "create-network-infrastructure"
           filters:
             branches:
               only:
-                - master
+                - main
       - create-backend-infrastructure:
           requires:
             - "create-network-infrastructure"
           filters:
             branches:
               only:
-                - master
+                - main
       - configure-infrastructure:
           requires:
             - "create-backend-infrastructure"
           filters:
             branches:
               only:
-                - master
+                - main
       - run-migrations:
           requires:
             - "configure-infrastructure"
@@ -862,21 +862,21 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
       - deploy-frontend:
           requires:
             - "run-migrations"
           filters:
             branches:
               only:
-                - master
+                - main
       - deploy-backend:
           requires:
             - "run-migrations"
           filters:
             branches:
               only:
-                - master
+                - main
       - smoke-test:
           requires:
             - "deploy-frontend"
@@ -884,18 +884,18 @@ workflows:
           filters:
             branches:
               only:
-                - master
+                - main
       - promote-to-production:
           requires:
             - "smoke-test"
           filters:
             branches:
               only:
-                - master
+                - main
       - clean-up:
           requires:
             - "promote-to-production"
           filters:
             branches:
               only:
-                - master
+                - main
